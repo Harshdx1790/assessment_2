@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="site.css" />
+  <title>Image Mapper</title>
+</head>
+
+<body>
+  <div class="container" align="center">
+    <label>Stock Trend </label>
+    <div>
+      
+    <div class="w-100">  <label class="label">Open</label> <div class="rectOrange"></div></div>
+    <div class="w-100">  <label class="label">Close</label> <div class="rectBlue"></div></div>
+    <div class="w-100">  <label class="label">Low</label> <div class="rectRed"></div></div>
+    <div class="w-100">  <label class="label">High</label> <div class="rectGreen"></div></div>
+    
+    </div>
+  </div>
+    <chart>
+      <canvas le width="950px" height="400px"></canvas>
+      <draw-canvas-data-set style='width: fit-content; height: fit-content; padding: 5px 15px; margin: 5px; position: absolute; left: 618px; top: 160px; opacity: 0; transition: all 0.5s ease 0s; color: rgb(255, 255, 255); background: rgb(3, 169, 244);'></draw-canvas-data-set>
+  </chart>
+  <!-- </div> -->
+  <script type="text/javascript" src="stock-tracker.js"></script>
+</body>
+
+</html>
